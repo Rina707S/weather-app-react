@@ -1,8 +1,15 @@
 .Weather {
-  border: 1px solid #6fd8e1;
+  border: 1px solid #8bf7f1;
   border-radius: 10px;
-  font-family: fantasy;
-  padding: 16px;
+  box-shadow: 9px 9px 9px rgb(24, 138, 245);
+  font-family: Monotype "Courier New", Courier, monospace;
+  padding: 54px;
+  background: radial-gradient(
+    circle at 74.2% 50.9%,
+    rgb(14, 72, 222) 5.2%,
+    rgb(3, 22, 65) 75.3%
+  );
+  color: #2ae9e9;
 }
 
 .Weather form {
@@ -11,12 +18,14 @@
 
 .Weather h1 {
   color: rgb(128, 52, 228);
-  font-size: 35px;
+  text-shadow: 1px 1px 1px white;
+  font-size: 50px;
   line-height: 29px;
-  font-weight: 100;
+  font-weight: 700;
   margin: 0;
   margin-bottom: 20px;
   text-align: center;
+  font-family: cutsive;
 }
 
 .Weather ul {
@@ -41,6 +50,7 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
+  margin-left: 10px;
 }
 
 .Weather .unit {
